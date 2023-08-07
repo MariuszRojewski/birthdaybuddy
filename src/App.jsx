@@ -10,7 +10,7 @@ const App = () => {
   return (
     <main>
         <section className='container'>
-          <h3>Lista {people.length} największych kurwi na świecie</h3>
+          <h3>People list - {people.length} </h3>
           <List people={people} />
           <button 
             type='button' 
